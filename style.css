@@ -1,0 +1,127 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(245, 255, 245);
+    background-image: url(image/bg.png);
+    background-size: 150%;
+}
+
+header {
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(61, 242, 255);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav ul li {
+    margin-left: 100px;
+    font-style: bold;
+    background-color: rgb(110, 243, 253);
+    border-radius: 20px;
+    border: 1px solid rgb(141, 244, 251);
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    transition: background-color 0.2s ease;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+} 
+
+nav ul li:hover {
+    background-color: rgb(154, 243, 249)  ;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: rgba(162, 249, 255, 0.562);
+}
+
+.menuContainer {
+    align-items: center;
+    display:inline-flex;
+    justify-content: space-between;
+    transition: all 0.6s ease;
+}
+
+.menuText {
+    margin-left: -45px;
+}
+
+.menuStyleA img {
+    height: 100px;
+    width: 100px;
+}
+
+.menuStyleB img {
+    height: 100px;
+    width: 100px;
+}
+
+.menuStyleA {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 10px 10px 5px rgb(0, 109, 139);
+    background-color: aqua;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+
+.menuStyleB {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    box-shadow: 10px 10px 5px rgb(0, 109, 139);
+    background-color:aquamarine;
+    border-radius: 10px;
+    transition: all 0.6s ease;
+}
+
+
+.menuContainer :hover {
+    scale: 150%;
+    box-shadow: 5px 5px 15px rgb(0, 109, 139);
+}
+
+.menuStyleA img:hover {
+    scale: 100%;
+    box-shadow: none;
+}
+
+.menuStyleA .menuText:hover {
+    scale: 100%;
+    box-shadow: none;
+}
+
+.menuStyleB img:hover {
+    scale: 100%;
+    box-shadow: none;
+}
+
+.menuStyleB .menuText:hover {
+    scale: 100%;
+    box-shadow: none;
+}
