@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Web: Revenge Of The POS</title>
+    <link rel="stylesheet" href="https://pyscript.net/snapshots/2024.9.2/core.css"/>
+        <script type="module" src="https://pyscript.net/snapshots/2024.9.2/core.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/star-wars" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/new-gothic-style" rel="stylesheet">
+</head>
+<body>
+<div>
+    <header>
+        <nav>
+            <ul>
+                <a href="../../index.html"><li>home</li></a>
+                <a href="../../About Store/AboutStore.html"><li>about store</li></a>
+                <a href="../../Creator/Creator.html"><li>Creator</li></a>
+            </ul>
+        </nav>
+    </header>
+</div>
+<div class="calcbody">
+    <div class="container">
+        <h1 class="judul">Calculator Sederhana</h1>
+        <div class="calculator">
+            <input type="text" id="result" readonly>
+            <div class="buttons">
+                <button onclick="clearResult()">C</button>
+                <button onclick="appendNumber(7)">7</button>
+                <button onclick="appendNumber(8)">8</button>
+                <button onclick="appendNumber(9)">9</button>
+                <button onclick="appendOperator('/')">/</button>
+                <button onclick="appendNumber(4)">4</button>
+                <button onclick="appendNumber(5)">5</button>
+                <button onclick="appendNumber(6)">6</button>
+                <button onclick="appendOperator('*')">*</button>
+                <button onclick="appendNumber(1)">1</button>
+                <button onclick="appendNumber(2)">2</button>
+                <button onclick="appendNumber(3)">3</button>
+                <button onclick="appendOperator('-')">-</button>
+                <button onclick="appendNumber(0)">0</button>
+                <button onclick="appendDecimal('.')">.</button>
+                <button onclick="appendOperator('+')">+</button>
+                <button onclick="calculate()">=</button>
+            </div>
+        </div>
+<a href="../../index.html">
+    <button class="btn">Home</button>
+</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
