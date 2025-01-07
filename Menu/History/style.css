@@ -40,6 +40,69 @@ nav ul a {
     text-decoration: none;
 } 
 
-nav ul li:hover {
+nav ul a li:hover {
     background-color: #0a326a  ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #414141;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.transaction-history {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-history h2 {
+    margin-top: 0;
+}
+
+.transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.transaction-history th, .transaction-history td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.transaction-history th {
+    background: #35424a;
+    color: #ffffff;
+}
+
+.transaction-history p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
 }

@@ -43,3 +43,146 @@ nav ul a {
 nav ul li:hover {
     background-color: #0a326a  ;
 }
+
+.transaction-history {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.transaction-history th, .transaction-history td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.transaction-history th {
+    background: #35424a;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+nav ul a li:hover {
+    background: #2c3e50;
+}
+
+main {
+    padding: 20px;
+}
+
+.new-transaction {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-transaction h2 {
+    margin-top: 0;
+}
+
+.new-transaction form {
+    margin-bottom: 20px;
+}
+
+.new-transaction label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.new-transaction input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+
+.new-transaction button {
+    background: #35424a;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.new-transaction button:hover {
+    background: #2c3e50;
+}
+
+.new-transaction table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.new-transaction th, .new-transaction td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.new-transaction th {
+    background: #35424a;
+    color: #ffffff;
+}
+
+.total {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+.new-transaction button {
+    background: #35424a; /* Warna latar belakang tombol */
+    color: #ffffff; /* Warna teks tombol */
+    border: none; /* Menghilangkan border default */
+    padding: 10px 20px; /* Padding untuk tombol */
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    margin-right: 10px; /* Memberikan jarak antara tombol */
+}
+
+.new-transaction button:hover {
+    background: #2c3e50; /* Warna latar belakang saat hover */
+}
+
+.total {
+    font-size: 1.5em; /* Ukuran font untuk total pembayaran */
+    margin: 20px 0; /* Margin atas dan bawah */
+}
+
+/* Tambahan untuk tabel */
+.new-transaction table {
+    width: 100%; /* Lebar tabel 100% */
+    border-collapse: collapse; /* Menghilangkan jarak antara border sel */
+}
+
+.new-transaction th, .new-transaction td {
+    padding: 10px; /* Padding untuk sel */
+    text-align: left; /* Perataan teks ke kiri */
+    border-bottom: 1px solid #dddddd; /* Garis bawah untuk sel */
+}
+
+.new-transaction th {
+    background: #35424a; /* Warna latar belakang untuk header tabel */
+    color: #ffffff; /* Warna teks untuk header tabel */
+}

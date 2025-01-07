@@ -15,11 +15,49 @@
     <header>
         <nav>
             <ul>
-                <a href="../../index.html"><li>home</li></a>
+                <a href="../../index.php"><li>home</li></a>
                 <a href="../../About Store/AboutStore.html"><li>about store</li></a>
                 <a href="../../Creator/Creator.html"><li>creator</li></a>
             </ul>
         </nav>
     </header>
-</body>
+    <main>
+        <section class="new-transaction">
+            <h2>New Transaction</h2>
+            <form id="transaction-form">
+                <label for="item-name">Nama Item:</label>
+                <input type="text" id="item-name" required>
+    
+                <label for="item-quantity">Jumlah:</label>
+                <input type="number" id="item-quantity" required>
+    
+                <label for="item-price">Harga:</label>
+                <input type="number" id="item-price" required>
+    
+                <button type="submit">Tambah ke Transaksi</button>
+                <button type="button" id="save-transaction">Simpan Transaksi</button>
+                <button type="button" id="clear-transactions">Hapus Transaksi</button>
+            </form>
+    
+            <h3>Daftar Transaksi</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nama Item</th>
+                        <th>Jumlah</th>
+                        <th>Harga</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody id="transaction-list">
+                    <!-- Item akan ditambahkan di sini menggunakan JavaScript -->
+                </tbody>
+            </table>
+            <div class="total">
+                <h3>Total Pembayaran: <span id="total-amount">0</span> IDR</h3>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+<body>
 </html>

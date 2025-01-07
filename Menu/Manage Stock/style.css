@@ -43,3 +43,54 @@ nav ul a {
 nav ul li:hover {
     background-color: #0a326a  ;
 }
+.manage-stock {
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.manage-stock form {
+    margin-bottom: 20px;
+}
+
+.manage-stock label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.manage-stock input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.manage-stock button {
+    background: #e74c3c; /* Warna merah untuk tombol hapus */
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.manage-stock button:hover {
+    background: #c0392b; /* Warna lebih gelap saat hover */
+}
+
+.manage-stock table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.manage-stock th, .manage-stock td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+.manage-stock th {
+    background: #35424a;
+    color: #ffffff;
+}
